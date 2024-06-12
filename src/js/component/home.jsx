@@ -14,7 +14,7 @@ const Home = () => {
                     <div className={"light green" + (selectedColor === "green" ? " glow-green" : "")}></div>
                     <div className={"light yellow" + (selectedColor === "yellow" ? " glow-yellow" : "")}></div>
                     <div className={"light red" + (selectedColor === "red" ? " glow-red" : "")}></div>
-                    {selectedColor === "purple" && <div className="light purple glow-purple"></div>}
+                    {selectedColor === "purple" && <div className="light purple glow-purple"/>}
                 </div>
                 <TrafficLightButton setSelectedColor={setSelectedColor} />
             </div>
